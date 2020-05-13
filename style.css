@@ -1,0 +1,25 @@
+body {
+  background-image: linear-gradient(
+    to right top,
+    #c9d0dc,
+    #b6d1dd,
+    #a6d3d1,
+    #a8d1b9,
+    #bdcb9e
+  );
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.movImg {
+  border-radius: 5px;
+  width: 30%;
+}
+.movStar {
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  width: 20vw;
+}
